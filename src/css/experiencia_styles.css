@@ -1,0 +1,59 @@
+.experiencia-section{
+    width: 100%;
+    background-color: #fff;
+}
+.experiencia-section h1{
+    font-size: 50px;
+}
+.experiencia-section .experiencia-container{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+    flex-flow: wrap;
+}
+.experiencia-section .experiencia-container .experiencia-box{
+    margin-top: 2%;
+    width: 25%;
+    
+}
+
+.experiencia-section .experiencia-container .experiencia-box .circle i{
+    font-size: 20px;
+    padding: 10%;
+    border-radius: 100%;
+    border: 1px solid #000;
+}
+.experiencia-section .experiencia-container .experiencia-box .year{
+    margin-top: 2%;
+    color: #47a6b0;
+    font-size: 20px;
+}
+.experiencia-section .experiencia-container .experiencia-box .title{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 2%;
+}
+.experiencia-section .experiencia-container .experiencia-box .description{
+    font-size: 20px;
+}
+@media screen and (max-width:1024px){
+    .experiencia-section .experiencia-container .experiencia-box{
+        margin-top: 2%;
+        width: 40%;
+        
+    }
+}
+@media screen and (max-width:770px){
+    
+}
+@media screen and (max-width:600px){
+    .experiencia-section .experiencia-container .experiencia-box{
+        margin-top: 5%;
+        width: 90%;
+        
+    }
+    
+}

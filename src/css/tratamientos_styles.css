@@ -1,0 +1,63 @@
+.tratamientos-section{
+    background-color: #FFF;
+}
+.tratamientos-section .tratamientos-title{
+    font-size: 50px;
+}
+.tratamientos-section .tratamientos-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+.tratamientos-section .tratamientos-container .tratamiento{
+    position: relative;
+    margin: 1%;
+    width: 30%;
+    height: 250px;
+}
+.tratamientos-section .tratamientos-container .tratamiento h2{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    transition: visibility 0.3s linear,opacity 0.3s linear;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+.tratamientos-section .tratamientos-container .tratamiento img{
+    cursor: pointer;
+    width: 100%;
+    height: 250px;
+}
+.tratamientos-section .tratamientos-container .tratamiento:hover > h2{
+    transition: all 1s;
+    visibility: visible;
+    opacity: 1;
+}
+@media screen and (max-width:1024px){
+    .tratamientos-section .tratamientos-container .tratamiento{
+        width: 40%;
+    }
+}
+@media screen and (max-width:770px){
+    
+}
+@media screen and (max-width:600px){
+    .tratamientos-section .tratamientos-container .tratamiento{
+        width: 90%;
+    }
+    
+}

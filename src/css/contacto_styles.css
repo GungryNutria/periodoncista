@@ -1,0 +1,122 @@
+.contacto-section{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.contacto-section h1{
+    font-size: 50px;
+}
+.contacto-section .contacto-container{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+    flex-flow: wrap;
+}
+.contacto-section .contacto-container .contact-info{
+    text-align: right;
+    margin: 1%;
+    width: 40%;
+}
+.contacto-section .contacto-container .contact-info a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 2%;
+}
+.contacto-section .contacto-container .contact-info p{
+    font-size: 18px;
+    margin-top: 2%;
+}
+.contacto-section .contacto-container .contact-form{
+    margin: 1%;
+    width: 40%;
+}
+.contacto-section .contacto-container .contact-form input{
+    margin-top: 4%;
+    background-color: transparent;
+    padding: 1%;
+    width: 95%;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+}
+.contacto-section .contacto-container .contact-form .button{
+    width: 20%;
+}
+.contacto-section .contacto-container .contact-form input::placeholder{
+    color: #fff;
+}
+.contacto-section .contacto-container .contact-form textarea{
+    padding: 1%;
+    width: 40em;
+    height: 10em;
+    margin-top: 4%;
+    background-color: transparent;
+    font-size: 18px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.contacto-section .contacto-container .contact-form textarea::placeholder{
+    color: #fff;
+}
+.contacto-section .contacto-container .contact-form .double-input{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+.contacto-section .contacto-container .contact-form .double-input input{
+    
+    width: 45%;
+}
+@media screen and (max-width:1024px){
+    .contacto-section .contacto-container .contact-info a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 25px;
+        margin-top: 2%;
+    }
+    .contacto-section .contacto-container .contact-info p{
+        font-size: 25px;
+        margin-top: 2%;
+    }
+    .contacto-section .contacto-container .contact-info{
+        text-align: left;
+        width: 90%;
+    }
+    .contacto-section .contacto-container .contact-form{
+        text-align: left;
+        width: 90%;
+    }
+    .contacto-section .contacto-container .contact-form input{
+        width: 90%;
+    }
+    .contacto-section .contacto-container .contact-form .double-input{
+        width: 100%;
+        display: block;
+        
+        
+    }
+    .contacto-section .contacto-container .contact-form .double-input input{
+        width: 90%;
+    }
+    .contacto-section .contacto-container .contact-form textarea{
+        width: 37em;
+    }
+    
+}
+@media screen and (max-width:770px){
+    
+}
+@media screen and (max-width:600px){
+    .contacto-section .contacto-container .contact-form textarea{
+        width: 17.5em;
+    }
+    
+}

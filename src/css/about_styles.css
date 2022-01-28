@@ -1,0 +1,100 @@
+.about-section{
+    background-color: #fff;
+    width: 100%;
+}
+.about-section h2{
+    color: #47a6b0;
+}
+.about-section h1{
+    font-size: 50px;
+    color: #000;
+}
+.about-section .description{
+    text-align: justify;
+    margin-top: 2%;
+    width: 80%;
+    font-size: 20px;
+    color: #000;
+}
+.about-section .about-container{
+    margin-top: 2%;
+    color: #000;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+    flex-flow: wrap;    
+}
+.about-section .about-container .about-box{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-flow: wrap;  
+    margin: 1%;
+}
+.about-section .about-container .about-box2{
+    text-align: justify;
+    width: 40%; 
+    margin: 1%;
+}
+.about-section .about-container .about-box2 img{
+    width: 100%;
+}
+.about-section .about-container .about-box .box-image{
+    width: 40%;
+}
+.about-section .about-container .about-box .box-text{
+    width: 40%;
+}
+.about-section .about-container .about-box .box-text h2{
+    text-align: justify;
+    font-weight: bold;
+}
+.about-section .about-container .about-box .box-image img{
+    width: 100px;
+}
+.about-section .about-container .about-box p{
+    text-align: justify;
+    font-size: 20px;
+}
+@media screen and (max-width:1024px){
+    .about-section .about-container .about-box{
+        width: 90%;
+    }
+    .about-section .about-container .about-box .box-image{
+        width: 20%;
+    }
+    .about-section .about-container .about-box .box-text{
+        width: 70%;
+    }
+    .about-section .about-container .about-box2{
+        width: 80%; 
+    }
+    .about-section .about-container .about-box2 ul li{
+        margin-left: 6%;
+    }
+    
+}
+@media screen and (max-width:770px){
+    
+}
+@media screen and (max-width:600px){
+    .about-section .about-container .about-box{
+        margin-top: 5%;
+    }
+    .about-section .about-container .about-box .box-image{
+        width: 90%;
+    }
+    .about-section .about-container .about-box .box-text{
+        width: 90%;
+    }
+    .about-section .about-container .about-box2{
+        width: 80%; 
+    }
+    
+}

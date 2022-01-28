@@ -1,0 +1,54 @@
+.parallax-section{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 500px;
+    color: #fff;
+}
+.parallax-section .parallax-container{
+    margin: auto;
+}
+.parallax-section .parallax-container h1{
+    padding: 1%;
+    font-size: 40px;
+}
+.parallax-section .parallax-container h2{
+    padding: 1%;
+    font-size: 30px;
+}
+.parallax-section .parallax-container p{
+    padding: 1%;
+    font-size: 20px;
+}
+@media screen and (max-width:1024px){
+    .parallax-section{
+        
+        height: 350px;
+        
+    }
+    .parallax-section .parallax-container{
+        margin: 0;
+    }
+}
+@media screen and (max-width:770px){
+    
+}
+@media screen and (max-width:600px){
+    .parallax-section .parallax-container h1{
+        padding: 1%;
+        font-size: 30px;
+    }
+    .parallax-section .parallax-container h2{
+        padding: 1%;
+        font-size: 20px;
+    }
+    .parallax-section .parallax-container p{
+        padding: 1%;
+        font-size: 18px;
+    }
+    .parallax-section{
+        
+        height: 300px;
+        
+    }
+    
+}
